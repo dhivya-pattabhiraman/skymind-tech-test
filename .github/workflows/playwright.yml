@@ -23,5 +23,5 @@ jobs:
       if: ${{ !cancelled() }}
       with:
         name: skymind-playwright-report
-        path: skymind/playwright-report/
+        path: playwright-report/
         retention-days: 30
